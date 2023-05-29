@@ -1,0 +1,982 @@
+.Headeer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HeaderComponent {
+  width: 90%;
+  //   border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeaderIcones img {
+  height: 50px;
+}
+.HaderButtonGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HaderButton {
+  height: 60px !important;
+  background: url("../../assets/image/Groupin.png");
+  background-size: 100% 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.HaderLoser {
+  height: 60px !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.HomeComponent {
+  // height: calc(100% - 100px);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // position: absolute;
+}
+
+.HomeComponentItemTilei {
+  width: 850px;
+  background: linear-gradient(180deg, #FFEFF5 19.27%, #FFD5E5 100%), #FFFFFF;
+  border: 3px solid #F95192;
+  box-shadow: 12px 12px 0px #FFBCD6;
+  border-radius: 12px ;
+  position: relative;
+  // margin-bottom: 30px;
+}
+
+.icon011{
+  position: absolute;
+  width: 225px;
+  right: 50px;
+  top: 0;
+  // z-index: 0;
+  transform: scaleX(-1);
+}
+
+.icon014{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 175px;
+}
+
+.icon013{
+  position: absolute;
+  bottom: 0;
+  width: 175px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.HomeComponentItemFonte {
+  width: 850px;
+  margin: 50px 0;
+  height: 96px;
+  background: #ffffff;
+  border: 3px solid #f95192;
+  box-shadow: 12px 12px 0px #ffbcd6;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ItemTileiLent {
+  flex: 1;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: space-around;
+}
+.ItemTileiRent {
+  flex: 1;
+  height: 430px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 15px;
+  justify-content: space-between;
+  // justify-content: center;
+}
+
+.ItemuserInfo{
+  height: 430px;
+  display: flex;
+  // align-items: center;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+  flex-direction: column;
+}
+
+.UserInfoLogo{
+  position: absolute;
+  width: 205px;
+  right: 15px;
+  z-index: -1;
+  top: 11px;
+}
+
+.link_title{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height, or 110% */
+  color: #000000;
+}
+
+.ItemuserInfo_link{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userInfodata{
+  width: 100%;
+  display: flex;
+  height: 240px;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(95.03deg, rgba(67, 136, 221, 0.1) 1.69%, rgba(251, 70, 130, 0.1) 94.93%), rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+
+.claimreceive{
+  width: 685px;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 4px;
+}
+
+.claim_title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.receivebutton{
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #FFAFCE 2.71%, #F95192 100%);
+  border-radius: 8px;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.receivedisablebutton{
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #FFAFCE 2.71%, #edabc5 100%);
+  border-radius: 8px;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: not-allowed;
+}
+
+.yourdata{
+  width: 685px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 25px;
+}
+
+.yourdataitem{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  // height: 30px;
+  // border: 1px solid red;
+  justify-content: center;
+  .dataLabel{
+    width: 100%;
+    background: linear-gradient(270deg, #FFAFCE 2.71%, #F95192 100%);
+    border-radius: 8px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .datatitle{
+    width: 100%;
+    text-align: center;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    color: #000000;
+  }
+}
+
+
+.ComponentItemHower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemHowerTitle {
+  padding: 15px 10px 5px 20px;
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  color: #F95192;
+}
+.ItemTileiRentItem {
+  // width: 90%;
+  width: 431px;
+  height: 311px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 6px;
+  // margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.exchange_right{
+  height: 311px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exchange_rightImage{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    width: 200px;
+  }
+}
+
+.ItemBalance {
+  width: 100%;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  // justify-content: space-around;
+  gap: 40px;
+  margin-top: 5px;
+  .ItemBalanceSon {
+    width: 220px;
+    height: 47px;
+    background: linear-gradient(270deg, #FFAFCE 2.71%, #F95192 100%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .ItemBalanceFon {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 34px;
+    color: #000000;
+    width: 220px;
+    text-align: center;
+  }
+}
+
+.ItemPrice {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.progress_area{
+  width: 90%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
+  border-radius: 4px;
+  height: 90px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.ItemFunea {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ItemFuneaItem {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.con{
+  position: relative;
+  .Connect{
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 47px;
+    .w3m-overlay{
+      display: none;
+    }
+  }
+}
+
+.ItemNuers {
+  width: 90%;
+  margin: 0 auto;
+  height: 40px;
+  background: #feedfa;
+  border-radius: 4px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemTileiRentValue {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #f95192;
+}
+
+.ItemImali {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  height: 65px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 4px;
+}
+
+.ItemTirenInputone {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  // background: #feedfa;
+  background-color: #fff;
+  box-shadow: inset 0px 1.3px 1.3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 90%;
+  margin: 10px auto;
+}
+.ItemTirenInputoPuoen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemTirenInputoPuoen img {
+  height: 13px;
+  margin-right: 8px;
+}
+.ItemTirenInputtwo {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  // background: #feedfa;
+  background-color: #fff;
+  box-shadow: inset 0px 1.3px 1.3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 90%;
+  margin: 0 auto;
+}
+.ItemTirenInputoneTeleb {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 15px;
+  .ant-btn {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    .ant-space {
+      height: 100%;
+      .ant-space-item {
+        height: 100%;
+        .ItemTirenInputoPuoen {
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+.ItemTirenInputoneNrowl {
+  width: 75%;
+}
+.ItemTirenPuoenValue {
+  margin-right: 5px;
+}
+.ItemTirenInputoneNrowl input {
+  width: 95%;
+  height: 47px;
+  text-align: right;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-right: 10px;
+}
+.ItemTirenICones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45px;
+  bottom: 0;
+  margin: 0 auto;
+  height: 30px;
+}
+
+.ItemTirenIConesItem {
+  width: 40px;
+  height: 40px;
+  background: #feedfa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #ffffff;
+  border-radius: 40px;
+  z-index: 99;
+  cursor: pointer;
+}
+.ItemTirenTeles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  padding: 10px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ItemTirenTelesItem span {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000;
+  margin-right: 5px;
+}
+.ItemTirenLuins {
+  width: 308px;
+  background: #feedfa;
+  border-radius: 4px;
+  padding: 10px;
+}
+.ItemTirenLuinsValue {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #f95192;
+  margin-bottom: 5px;
+}
+
+.ItemTirenFoonte {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+}
+.ItemTirenbtone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.ItemTirenbtone button {
+  // width: 100%;
+  width: 145px;
+  border: none;
+  height: 40px;
+  background: linear-gradient(270deg, #FFAFCE 2.71%, #F95192 100%);
+  border-radius: 8px;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemFonteNrokn {
+  width: 600px;
+  // width: 400px;
+  height: 40px;
+  border: 2px solid #f95192;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ItemFonteNroknTitle {
+  width: 80%;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  padding-left: 10px;
+  text-align: center;
+  color: #f95192;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ItemFonteNroknTitleL {
+  width: 80%;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  padding-left: 10px;
+  text-align: center;
+  color: #f95192;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ItemFonteNroknValeu {
+  width: 100px;
+  height: 40px;
+  background: #F95192;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.ItemFonteNroknValeu img {
+  width: 16px;
+}
+
+.ItemFonteNroknValeu span {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.ItemFonteButon button {
+  width: 160px;
+  height: 47px;
+  // background: #f95192;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  // cursor: pointer;
+}
+.HomeComponentItemTalie {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000000;
+}
+
+// 条款弹窗
+.clause {
+  height: 500px;
+  overflow-y: scroll;
+  // padding: 10px;
+  margin-top: 20px;
+}
+
+.clause_textdec {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+// .selectbutton_area::before{
+//   content: "";
+//   height: 100%;
+//   width: 260px;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   transform: skew(-20deg);
+//   z-index: 2;
+// }
+
+.selectbutton_area{
+  position: relative;
+  // width: 520px;
+  width: 850px;
+  justify-content: space-between;
+  height: 70px;
+  // height: 0;
+  // background-color: #F95192;
+  // border-radius: 12px 12px 0 0;
+  // transform: skew(20deg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 0;
+  margin-bottom: 25px;
+  .selectbutton_item{
+    // width: 50%;
+    width: 260px;
+    height: 100%;
+    // height: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    background: linear-gradient(180deg, #FFEFF5 19.27%, #FFD5E5 100%), #FFFFFF;
+    border: 3px solid #F95192;
+    box-shadow: 8px 8px 0px #FFBCD6;
+    border-radius: 12px;
+    img{
+      width: 25px;
+      height: 25px;
+      margin-right: 8px;
+    }
+    span{
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 22px;
+      /* identical to box height, or 110% */
+      // color: #000000;
+    }
+  }
+  .selectbutton_item:first-child{
+    border-top-left-radius: 12px !important;
+    // border-bottom: 100px solid #F95192;
+    // border-right: 50px solid transparent;
+    // z-index: 1000;
+    // border-top-left-radius: 12px;
+  }
+  .selectbutton_item:last-child{
+    border-top-right-radius: 12px !important;
+    // margin-left: -50px;
+    // border-bottom: 100px solid #FFEFF5;
+    // border-color: #FFEFF5;
+    // border-top-right-radius: 12px;
+  }
+}
+
+
+
+.clause::-webkit-scrollbar {
+  display: none;
+}
+.ItemImali_imge img {
+  height: 18px;
+}
+.asioer img {
+  height: 26px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 640px) {
+  .HomeComponent {
+    position: relative;
+    margin-top: 15px;
+    .HomeComponentItem {
+      width: 95%;
+      .HomeComponentItemFonte {
+        height: auto;
+        width: 100%;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        .ItemFonteNrokn {
+          width: 90%;
+          .ItemFonteNroknTitle {
+            padding-left: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .HomeComponentItemTilei {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  .ComponentItemHower {
+    flex-wrap: wrap;
+  }
+  .ItemTileiLent {
+    width: 100%;
+    flex: auto;
+    height: auto;
+  }
+  .ItemTileiRent {
+    width: 100%;
+    height: initial;
+    flex-wrap: wrap;
+  }
+
+  .ItemBalance{
+    gap: 10px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .ItemBalance .ItemBalanceSon {
+    // width: 160px;
+    width: calc(40%);
+    gap: 5px;
+  }
+
+  .ItemBalanceFon{
+    width: calc(40%) !important;
+    text-align: center;
+  }
+
+  .ItemImali_imge img {
+    height: 20px;
+  }
+  .HomeComponentItemTalie {
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  .ItemFonteButon {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    button{
+      width: 100%;
+    }
+  }
+
+
+  .icon011{
+    right: 15px;
+    width: 175px;
+  }
+
+  .icon013{
+    left: initial;
+    transform: initial;
+    right: 0;
+    bottom: 75px;
+    width: 125px;
+    // z-index: 3;
+  }
+
+  .icon014{
+    left: initial;
+    transform: initial;
+    right: 0;
+    top: -25px;
+    width: 125px;
+  }
+
+  .exchange-right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .exchange_rightImage{
+    // justify-content: initial;
+    img{
+      width:175px
+    }
+  }
+
+  .selectbutton_area{
+    width: calc(100% + 6px);
+    height: 50px;
+    position: relative;
+    z-index: 3;
+    .selectbutton_item{
+      width: 100px;
+      span{
+        font-size: 14px;
+      }
+      img{
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  
+  .yourdata{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .yourdataitem{
+    flex: initial;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .ItemuserInfo_link{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .claimreceive{
+    width: 95%;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .UserInfoLogo{
+    width: 125px;
+  }
+
+  .claim_title{
+    width: 100%;
+    text-align: center;
+  }
+
+  .userInfodata,.ItemuserInfo{
+    height: auto;
+  }
+
+  .userInfodata{
+    padding: 15px 0;
+    box-sizing: border-box;
+  }
+
+  .link_title{
+    margin: 10px 0;
+  }
+}
+
+.ButyPoe{
+  background-color: #cccccc !important;
+  color: #acacac !important;
+  cursor: not-allowed !important;
+}
+.eventData{
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+.eventDataItem{
+  color: red;
+  padding-bottom: 3px;
+  font-size: 14px;
+}
+.piseLoce{
+  margin-left: 6px;
+  padding-top: 3px;
+}
+

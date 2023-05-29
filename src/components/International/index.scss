@@ -1,0 +1,77 @@
+.spiineosr {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  .sapeien {
+    margin-right: 10px;
+  }
+  .sapeien .ant-btn {
+    padding: 5px 15px 0px 15px;
+    height: 100%;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #000;
+    background-color: #5356fb;
+    background-size: 100% 100% !important;
+  }
+  .sapeien .ant-space-item {
+    display: flex;
+    align-items: center;
+  }
+  .speriise {
+    display: flex;
+    align-items: center;
+  }
+  .speriise img {
+    height: 25px;
+    margin-right: 6px;
+  }
+  .ant-dropdown-menu-item,
+  .ant-dropdown-menu-submenu-title {
+    font-weight: 600 !important;
+  }
+  .ant-btn-two-chinese-chars > :not(.anticon) {
+    letter-spacing: 0px !important;
+  }
+}
+.psoduenxc {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+@media only screen and (min-width: 300px) and (max-width: 640px) {
+  .spiineosr .sapeien .ant-btn {
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+  }
+  .spiineosr .sapeien {
+    margin-right: 5px;
+  }
+  .spiineosr .sapeien .ant-btn {
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+  }
+  .spiineosr .sapeien {
+    margin-right: 5px;
+  }
+  .speriise {
+    .anticon svg {
+      font-size: 23px !important;
+      color: #f93392;
+    }
+  }
+  .spiineosr {
+    display: none !important;
+  }
+  .Heaer_footer .spiineosr {
+    display: block !important;
+    .sapeien {
+      margin-top: 0px !important;
+      margin-bottom: 10px !important;
+      margin-right: 0px !important;
+    }
+  }
+}
